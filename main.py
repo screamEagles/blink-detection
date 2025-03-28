@@ -14,6 +14,7 @@ blink_counter = 0
 counter = 0
 colour = (250, 196, 2)
 
+
 while True:
     if cap.get(cv2.CAP_PROP_POS_FRAMES) == cap.get(cv2.CAP_PROP_FRAME_COUNT):
         cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
